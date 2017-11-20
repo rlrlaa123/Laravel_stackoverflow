@@ -11,9 +11,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-//        flash('환영합니다.');
+        flash('환영합니다.');
 
-        flash()->success('성공했습니다.');
+//        flash()->success('성공했습니다.');
 //        flash('성공했습니다.', 'success');
 
 //        flash()->warning('경고! 누구세요?');
